@@ -73,18 +73,18 @@ VoyaGen is a web application that helps users plan, enrich, and manage their tra
 
 Web App (React) | v Express Backend (Node.js) | v MongoDB Atlas | v External APIs (Gemini, Google Calendar, Maps, YouTube)
 
-Structure
+```plaintext
 VoyaGen/ 
-├── Frontend/ # React app 
-│ └── app/ 
-│ ├── (tabs)/ 
-│ ├── SummaryScreen.tsx 
-│ └── ... 
-├── server/ # Express backend 
-│ └── src/ 
-│ ├── controllers/ 
-│ ├── models/ 
-│ └── ... 
+├── Frontend/                # React app 
+│   └── app/ 
+│       ├── (tabs)/ 
+│       ├── SummaryScreen.tsx 
+│       └── ... 
+├── server/                  # Express backend 
+│   └── src/ 
+│       ├── controllers/ 
+│       ├── models/ 
+│       └── ... 
 └── Readme.md
 
 ---
